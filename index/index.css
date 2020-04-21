@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+li {
+  display: inline;
+  margin-right: 10px;
+  color: white;
+  
+}
+ul {
+  width: 950px;
+  text-align: left;
+  /*background-color: #0d0015;*/
+  
+}
+
+body {
+    background-image: url("../images/back_DSC02652.JPG");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+h1 {
+	padding-bottom: .5em;
+	/*border-bottom: 1px solid #ccc;*/
+  font-weight: normal;
+  font-family: "Noto Sans JP";
+  font-size: 80px;
+  color: #fbfaf5;
+  /*background-color: #0d0015;*/
+  position: relative;left:200px;top:150px;
+
+}
+
+h1 span{
+	display: block;
+	margin-bottom: .2em;
+	color: #aaa;
+	font-size: .5em;
+	
+}
+
+a:link{
+  color:#fbfaf5;
+  text-decoration:none;
+}
+
+a:visited{
+  color:#0d0015;
+}
+a:hover{
+  color:#fbfaf5;
+}
+a:active{
+  color:#fef263;
+}
+a{cursor: auto;}

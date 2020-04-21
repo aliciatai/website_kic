@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+li {
+  display: inline;
+  margin-right: 10px;
+  color: black;
+}
+ul {
+  width: 950px;
+  text-align: left;
+}
+body {
+    background-image: url("../images/back_DSC02652.JPG");
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+h1 {
+  padding-bottom: .5em;
+  /*border-bottom: 1px solid #ccc;*/
+  font-weight: normal;
+  font-family: "Noto Sans JP";
+  color: #fbfaf5;
+  /*background-color: #0d0015;*/
+}
+h1 span{
+	display: block;
+	margin-bottom: .2em;
+	color: #0d0015;
+	font-size: .4em;	
+}
+h2{
+  font-weight: normal;
+  height:75%;
+  width:75%;
+  background-color:#fbfaf5; 
+  padding: 10px;
+  box-shadow: 1px 1px #0d0015;
+  position:relative; left:150px;
+}
+p{
+  background-color:#fbfaf5;
+  height:75%;
+  width:75%;
+  padding: 10px;
+  box-shadow: 1px 1px #0d0015;
+  position:relative; left:150px;
+}
+a:link{
+  color:#fbfaf5;
+  text-decoration:none;
+}
+a:visited{
+  color:#0d0015;
+}
+a:hover{
+  color:#fbfaf5;
+}
+a:active{
+  color:#fef263;
+}
+a{cursor: auto;}
+
+p a:link{
+  color:#474b42;
+}
+p a:visited{
+  color:#474b42;
+}
+p a:hover{
+  color:#007bbb;
+}
